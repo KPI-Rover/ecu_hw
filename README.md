@@ -1,3 +1,3 @@
-Плата врозробці.
+The board is under development.
 
-Вимоги до друкованної плати: [doc/requirements.md](./doc/requirements.md)
+Requirements for the PCB can be found here: [doc/requirements.md](./doc/requirements.md)
