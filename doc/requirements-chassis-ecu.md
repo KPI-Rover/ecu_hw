@@ -1,38 +1,38 @@
-# Вимоги до друкованої плати контролера шасі
+# Requirements for the Chassis Controller PCB
 
-1. Контролер повинен бути розроблений у вигляді плати розширення для відладної плати STM32F407G-DISC1.
-2. Контролер повинен живитися від зовнішнього джерела живлення з напругою від 6 В до 30 В.
-3. Контролер повинен мати захист від неправильного підключення полярності джерела живлення.
-4. Клемники з гвинтовими затискачами повинні використовуватися для підключення живлення.
-5. Контролер повинен вимірювати вхідну напругу джерела живлення.
-6. Контролер повинен мати звуковий випромінювач.
-7. Контролер повинен мати 4 групи вихідних сигналів для керування модулем керування двигуном. Тип роз'єму: JST PH.  
-   Сигнали у кожній групі:
-   - ШІМ (PWM) з частотою до 20 кГц. Логічний рівень 5 В.
-   - Forward (F) — логічний вихід для керування напрямком руху. Логічний рівень 5 В.
-   - Reverse (R) — логічний вихід для керування напрямком руху. Логічний рівень 5 В.
+1. The controller must be designed as an expansion board for the STM32F407G-DISC1 development board.
+2. The controller must be powered by an external power source with a voltage range of 6 V to 30 V.
+3. The controller must have protection against incorrect polarity connection of the power supply.
+4. Screw terminal blocks should be used for power connections.
+5. The controller must measure the input voltage of the power supply.
+6. The controller must have a buzzer.
+7. The controller must have 4 groups of output signals for motor control modules. Connector type: JST PH.  
+   Signals in each group:
+   - PWM signal with a frequency up to 20 kHz. Logical level 5 V.
+   - Forward (F) — logic output for controlling the movement direction. Logical level 5 V.
+   - Reverse (R) — logic output for controlling the movement direction. Logical level 5 V.
    - GND.
-8. Контролер повинен мати 4 групи входів для енкодерів. Тип роз'єму: JST PH.  
-   Сигнали у кожній групі:
-   - +5 В — живлення енкодера.
+8. The controller must have 4 groups of inputs for encoders. Connector type: JST PH.  
+   Signals in each group:
+   - +5 V — power for the encoder.
    - GND.
-   - Фаза A — сигнал від енкодера, що відповідає за відстеження положення або обертання об'єкта. Використовується для визначення напрямку руху разом із сигналом фази B.
-   - Фаза B — сигнал, що працює спільно з фазою A для точного визначення напрямку й кількості обертів об'єкта. Завдяки чергуванню сигналів фаз A і B можливо визначити як швидкість, так і напрямок руху.
-9. Контролер повинен мати 4 виходи для підключення габаритних світлодіодів. Струм через світлодіод повинен бути обмежений до 15 мА. Тип роз'єму: JST PH.
-10. Контролер повинен мати вихід для підключення 3 статусних світлодіодів (червоний, жовтий, зелений). Струм через кожен світлодіод повинен бути обмежений до 15 мА. Тип роз'єму: JST PH.
-11. Контролер повинен мати роз'єм послідовного інтерфейсу на рівнях TTL. Тип роз'єму: JST PH.
-12. Контролер повинен мати 4 входи для ультразвукових датчиків типу HC-SR04. Тип роз'єму: JST PH.  
-    Сигнали для кожного датчика:
-   - VCC — живлення датчика (+5 В).
-   - GND — загальний (нульовий) провід.
-   - TRIG — вхідний сигнал для запуску ультразвукової хвилі. Контролер подає короткий імпульс (10 мікросекунд) для активації вимірювання.
-   - ECHO — вихідний сигнал, який вказує на час повернення відбитої ультразвукової хвилі. Тривалість цього сигналу пропорційна відстані до об'єкта.
-13. Контролер повинен мати роз'єм для встановлення модуля GY-BNO080 (IMU).
-14. Контролер повинен мати роз'єм для встановлення модуля HC-05 (Bluetooth).
-15. Розміри плати контролера не повинні перевищувати 110x190 мм. Бажано, але не обов’язково, не перевищувати 100х100 мм.
-16. Кількість шарів друкованої плати не має перевищувати 4. Бажано 2.
-17. Плата контролера повинна мати 4 отвори діаметром 3,2 мм по кутах для кріплення до шасі.
-18. Усі SMD компоненти мають бути розміщені зі сторони роз'єму плати STM32F407G-DISC1.
-19. Усі роз'єми для під'єднання модулів, сигналів і живлення мають бути розташовані на протилежній стороні від плати STM32F407G-DISC1.
-20. Друкована плата має бути розроблена з використанням KiCad EDA (https://www.kicad.org/).
-21. Усі компоненти плати мають бути доступні для замовлення на сайті: https://www.lcsc.com/
+   - Phase A — signal from the encoder responsible for tracking position or rotation. Used for determining direction along with the Phase B signal.
+   - Phase B — signal that works in conjunction with Phase A for precise determination of direction and the number of rotations. The alternating signals of phases A and B make it possible to determine both speed and direction of movement.
+9. The controller must have 4 outputs for connecting marker LEDs. The current through each LED must be limited to 15 mA. Connector type: JST PH.
+10. The controller must have an output for connecting 3 status LEDs (red, yellow, green). The current through each LED must be limited to 15 mA. Connector type: JST PH.
+11. The controller must have a serial interface connector with TTL levels. Connector type: JST PH.
+12. The controller must have 4 inputs for ultrasonic sensors such as the HC-SR04. Connector type: JST PH.  
+    Signals for each sensor:
+   - VCC — power supply (+5 V).
+   - GND — common (ground) wire.
+   - TRIG — input signal for starting the ultrasonic wave. The controller sends a short pulse (10 microseconds) to initiate the measurement.
+   - ECHO — output signal indicating the return time of the reflected ultrasonic wave. The duration of this signal is proportional to the distance to the object.
+13. The controller must have a connector for the GY-BNO080 (IMU) module.
+14. The controller must have a connector for the HC-05 (Bluetooth) module.
+15. The dimensions of the controller board must not exceed 110x190 mm. Preferably, but not necessarily, within 100x100 mm.
+16. The number of PCB layers should not exceed 4, preferably 2.
+17. The controller board must have 4 mounting holes with a diameter of 3.2 mm at the corners for attaching to the chassis.
+18. All SMD components should be placed on the side of the STM32F407G-DISC1 connector.
+19. All connectors for modules, signals, and power should be placed on the opposite side from the STM32F407G-DISC1 board.
+20. The PCB must be designed using KiCad EDA (https://www.kicad.org/).
+21. All board components must be available for order from https://www.lcsc.com/.
