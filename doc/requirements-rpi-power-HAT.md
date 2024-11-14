@@ -1,15 +1,15 @@
-# Вимоги до друкованої плати живлення Raspberry PI
+# Requirements for the Raspberry Pi Power Supply PCB
 
-1. Плата має бути виконана у вигляді HAT (Hardware Attached on Top) модуля. Плата має відповідати усім вимогам, окрім наявності EEPROM. Вимоги: [https://github.com/raspberrypi/hats/blob/master/designguide.md](https://github.com/raspberrypi/hats/blob/master/designguide.md)
-2. Плата має бути побудована на основі DC-DC перетворювача AP64500SP ([https://www.diodes.com/assets/Datasheets/AP64500.pdf](https://www.diodes.com/assets/Datasheets/AP64500.pdf))
-3. Плата має забезпечити вихідну напругу 5.1 В і струм 5 А.
-4. Живлення на Raspberry Pi має подаватись через 40-піновий роз'єм. Усі контакти GND мають бути об'єднані. Обидва контакти +5 В мають бути використані.
-5. Плата має мати додатковий роз'єм вихідної напруги +5 В, щоб забезпечити можливість її використання окремо для живлення інших пристроїв.
-6. Клемники з гвинтовими затискачами повинні використовуватися для підключення живлення і для додаткового виходу +5 В.
-7. Плата має мати захист від неправильного підключення полярності джерела живлення.
-8. Плата має мати додатковий захист від перевищення вихідної напруги.
-9. Плата має мати роз'єм послідовного інтерфейсу на рівнях TTL. Він буде використовуватись для підключення до контролера шасі. Тип роз'єму: JST PH.
-10. Плата має мати роз'єм послідовного інтерфейсу і інтерфейсу I2C для підключення GPS сенсора з компасом. Тип роз'ємів: JST PH.
-11. Плата має мати світлодіод зеленого кольору, підключений до +5 В для індикації наявності живлення.
-12. Друкована плата має бути розроблена з використанням KiCad EDA (https://www.kicad.org/).
-13. Усі компоненти плати мають бути доступні для замовлення на сайті: https://www.lcsc.com/
+1. The board must be designed as a HAT (Hardware Attached on Top) module. The board must comply with all requirements except for the presence of EEPROM. Requirements: [https://github.com/raspberrypi/hats/blob/master/designguide.md](https://github.com/raspberrypi/hats/blob/master/designguide.md)
+2. The board must be based on the AP64500SP DC-DC converter ([https://www.diodes.com/assets/Datasheets/AP64500.pdf](https://www.diodes.com/assets/Datasheets/AP64500.pdf)).
+3. The board must provide an output voltage of 5.1 V and a current of 5 A.
+4. Power should be supplied to the Raspberry Pi through the 40-pin connector. All GND pins must be connected together. Both +5 V pins must be used.
+5. The board must have an additional +5 V output connector to allow it to be used separately for powering other devices.
+6. Screw terminal blocks should be used for power input and the additional +5 V output.
+7. The board must have protection against incorrect polarity connection of the power source.
+8. The board must have additional protection against output voltage overvoltage.
+9. The board must have a serial interface connector with TTL levels for connection to the chassis controller. Connector type: JST PH.
+10. The board must have serial and I2C interface connectors for connecting a GPS sensor with a compass. Connector types: JST PH.
+11. The board must have a green LED connected to +5 V to indicate power availability.
+12. The PCB must be designed using KiCad EDA (https://www.kicad.org/).
+13. All board components must be available for order from https://www.lcsc.com/.
