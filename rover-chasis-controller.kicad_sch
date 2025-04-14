@@ -18797,6 +18797,16 @@
 		)
 		(uuid "1304f6b9-a485-4a55-b0e6-1ab87b5af785")
 	)
+	(text "i'm not sure \nabout this diode."
+		(exclude_from_sim no)
+		(at 109.728 213.106 0)
+		(effects
+			(font
+				(size 0.5 0.5)
+			)
+		)
+		(uuid "142ad511-56d6-4ba9-811c-a296bd6112d7")
+	)
 	(text "GND"
 		(exclude_from_sim no)
 		(at 161.29 541.02 0)
@@ -19022,7 +19032,7 @@
 		)
 		(uuid "3af68d38-716a-4f85-95f3-6e0200a1957c")
 	)
-	(text "TODO:\n4. Replace all Through-a-hole/Leaded elements with SMD.\n	4.2 Resister\n	4.3 Other\n7. Resolve all ERC exceptions and warnings.\n9. Recalculate all of the numerical values for scheme, to be sure.\n13. Consider implement Multi unit symbols for IC Arrays.\n15. Include PWR_FLAG, properly.\n\n\n\nDONE:\n1. Rework transisor schemes with transistor arrays.\n	1.1 Motor controllers.\n	1.2 External LEDs.\n	1.3 Buzzer.\n2. Rework power supply by taking already in use PMIC in rpi-power-HAT. (Varya PCB).\n3. Find out about accelerometer in STM32 instead of MPU-6050 IMU Module.\n5. Consider TVS diode for the ADC.\n6. Consider organizing everything to different sheets.\n8. Check Buzzer datasheet, 'cause I think there was 3V Operational Voltage.\n\nNext revision:\n10. Integrate Resistor Arrays for Transistor Arrays.\n11. Fix markings\n	11.1 Remove redundant Ohms marks from resistors marking.\n	11.2 Remove spaces between markings value and measurment.\n12. Rearrange VCC and GND symbols for better readibility.\n\nNext revision:\n16. Replace buzzer with an active and SMD one.\n17. Add Ethernet transreciever.\n14. Consider applying shared connection to Resistor Arrays among:\n	14.1 Encoders\n	14.2 Motors\n19. Rework internal LEDs scheme, obtatin LEDs from Varya's PCB.\n4. Replace all Through-a-hole/Leaded elements with SMD.\n	4.1 Capacitors\n18. Add MPU-6050 module."
+	(text "TODO:\n7. Resolve all ERC exceptions and warnings.\n9. Recalculate all of the numerical values for scheme, to be sure.\n13. Consider implement Multi unit symbols for IC Arrays.\n15. Include PWR_FLAG, properly.\n\n\n\nDONE:\n1. Rework transisor schemes with transistor arrays.\n	1.1 Motor controllers.\n	1.2 External LEDs.\n	1.3 Buzzer.\n2. Rework power supply by taking already in use PMIC in rpi-power-HAT. (Varya PCB).\n3. Find out about accelerometer in STM32 instead of MPU-6050 IMU Module.\n5. Consider TVS diode for the ADC.\n6. Consider organizing everything to different sheets.\n8. Check Buzzer datasheet, 'cause I think there was 3V Operational Voltage.\n\nNext revision:\n10. Integrate Resistor Arrays for Transistor Arrays.\n11. Fix markings\n	11.1 Remove redundant Ohms marks from resistors marking.\n	11.2 Remove spaces between markings value and measurment.\n12. Rearrange VCC and GND symbols for better readibility.\n\nNext revision:\n16. Replace buzzer with an active and SMD one.\n17. Add Ethernet transreciever.\n14. Consider applying shared connection to Resistor Arrays among:\n	14.1 Encoders\n	14.2 Motors\n19. Rework internal LEDs scheme, obtatin LEDs from Varya's PCB.\n4. Replace all Through-a-hole/Leaded elements with SMD.\n	4.1 Capacitors\n	4.2 Resister\n	4.3 Fuse\n	4.4 Diode\n18. Add MPU-6050 module."
 		(exclude_from_sim no)
 		(at 463.296 66.294 0)
 		(effects
@@ -23829,6 +23839,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 247.65 307.34 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1290eeb1-3bac-4e0f-9c6e-74b19d5778fa")
+		(property "Reference" "R18"
+			(at 247.65 300.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 247.65 303.53 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.904 306.324 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 247.65 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_KOA-Speer-Elec-WK73R2ATTD221J_C3965138.html?s_z=n_220%25CE%25A9%2520smd"
+			(at 247.65 307.34 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6373dbd-8ce4-4b33-8fa4-64e7d4978dbf")
+		)
+		(pin "1"
+			(uuid "8a263582-3acb-4fd2-bec9-29cef2f368f2")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 378.46 215.9 0)
 		(mirror y)
@@ -25432,6 +25519,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 166.37 102.87 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "20fafaac-1210-4c8b-888d-9e78274997ae")
+		(property "Reference" "F1"
+			(at 166.37 109.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 166.37 106.68 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 101.092 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 166.37 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/Resettable-Fuses_BNstar-SMD1812-030C-30V_C2760284.html?s_z=n_smd%2520fuse%25200.3A"
+			(at 166.37 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f4b80ecb-39e1-4dab-be3f-3d07ce6b5a1b")
+		)
+		(pin "2"
+			(uuid "1543f11d-5305-48ac-91a5-1b1b1a3f5ccc")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 97.79 506.73 0)
 		(mirror y)
@@ -26297,6 +26462,83 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 247.65 295.91 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27ab0521-bc9f-48d7-81eb-58a68f20c0b8")
+		(property "Reference" "R17"
+			(at 247.65 289.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 247.65 292.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.904 294.894 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 247.65 295.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_KOA-Speer-Elec-WK73R2ATTD221J_C3965138.html?s_z=n_220%25CE%25A9%2520smd"
+			(at 247.65 295.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a35d7ba9-70cd-4a48-bfbf-f40963f0c8da")
+		)
+		(pin "1"
+			(uuid "fd06d33b-b81e-41f0-b46d-9613048f76f7")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -34185,7 +34427,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/Through-Hole-Resistors_CCO-Chian-Chia-Elec-CF1-4W-330-5-T_C120043.html"
+		(property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_KOA-Speer-Elec-WK73R1JTTD432J_C4058781.html?s_z=n_4.3k%25CE%25A9%2520%2520smd"
 			(at 367.03 162.56 0)
 			(effects
 				(font
@@ -34734,7 +34976,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/Through-Hole-Resistors_Huaxing-Mechanical-Elec-MF1-4W-220-1-T52_C714546.html?s_z=n_MF1%2F4W-220R-T52"
+		(property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_KOA-Speer-Elec-WK73R2ATTD221J_C3965138.html?s_z=n_220%25CE%25A9%2520smd"
 			(at 247.65 273.05 90)
 			(effects
 				(font
@@ -34753,83 +34995,6 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 247.65 295.91 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "64d69743-ad7c-4098-bfd3-be71731fb242")
-		(property "Reference" "R17"
-			(at 247.65 289.56 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 247.65 292.1 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.904 294.894 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 247.65 295.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/Through-Hole-Resistors_Huaxing-Mechanical-Elec-MF1-4W-220-1-T52_C714546.html?s_z=n_MF1%2F4W-220R-T52"
-			(at 247.65 295.91 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "955b4e55-8a93-4e43-b613-a81243a17de0")
-		)
-		(pin "1"
-			(uuid "6d1078b4-9c46-46a1-b1d6-81093ee2715f")
-		)
-		(instances
-			(project "rover-chasis-controller"
-				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
-					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -37505,75 +37670,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 166.37 102.87 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7e4a58b6-5f97-4251-934e-2faf4e83d2db")
-		(property "Reference" "F10"
-			(at 166.37 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 166.37 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 101.092 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 166.37 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f1427e07-79fd-42f2-81f9-95099db60584")
-		)
-		(pin "2"
-			(uuid "d582b077-337c-456b-bdae-c93dfbda4fbf")
-		)
-		(instances
-			(project "rover-chasis-controller"
-				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
-					(reference "F10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 516.89 492.76 0)
 		(mirror y)
@@ -39655,6 +39751,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/Resettable-Fuses_BNstar-SMD1812-030C-30V_C2760284.html?s_z=n_smd%2520fuse%25200.3A"
+			(at 119.38 102.87 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "443e9715-96fb-4cda-8b44-18373433fc71")
 		)
@@ -40974,7 +41079,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/Switching-Diodes_LGE-1N4148_C402212.html?s_z=n_in4148"
+		(property "LCSC" "https://www.lcsc.com/product-detail/Schottky-Diodes_JSMSEMI-1N5819WS-S4_C2927280.html?s_z=s_Diodes%257CSchottky%2520Diodes"
 			(at 109.22 220.98 90)
 			(effects
 				(font
@@ -42695,6 +42800,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 166.37 139.7 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a46f8b6c-607f-4cd4-9e3c-6b7565eddb55")
+		(property "Reference" "F2"
+			(at 166.37 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 166.37 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 137.922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 166.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 166.37 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/Resettable-Fuses_BNstar-SMD1812-030C-30V_C2760284.html?s_z=n_smd%2520fuse%25200.3A"
+			(at 166.37 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c27dc752-b373-447e-99ae-56df56f58710")
+		)
+		(pin "2"
+			(uuid "d7038c6c-8e8a-496d-804f-350dbc6d6207")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 101.6 590.55 0)
 		(unit 1)
@@ -43319,6 +43502,83 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 247.65 284.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a950a09c-89ef-44c4-ae34-4cb8f0fc8ee2")
+		(property "Reference" "R16"
+			(at 247.65 278.13 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "220"
+			(at 247.65 280.67 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 247.904 283.464 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 247.65 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 247.65 284.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_KOA-Speer-Elec-WK73R2ATTD221J_C3965138.html?s_z=n_220%25CE%25A9%2520smd"
+			(at 247.65 284.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c6f00d3d-57c4-446c-87d7-6d673fce19ff")
+		)
+		(pin "1"
+			(uuid "cf07b3a3-e850-4ae8-a611-ebf531473a3c")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -46944,75 +47204,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 119.38 139.7 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c31b9625-21c1-4851-98da-cdc36d5a2bd1")
-		(property "Reference" "F12"
-			(at 119.38 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 119.38 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 119.38 137.922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 119.38 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4f3a6ebf-917b-493b-9c20-1a4c2085c281")
-		)
-		(pin "2"
-			(uuid "379968b6-27b0-4800-91d4-6445ee60d0f9")
-		)
-		(instances
-			(project "rover-chasis-controller"
-				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
-					(reference "F12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 134.62 476.25 0)
 		(mirror x)
@@ -48151,75 +48342,6 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 166.37 139.7 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c9f94c5a-13af-4035-a86d-caba3f26b60c")
-		(property "Reference" "F11"
-			(at 166.37 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 166.37 143.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 137.922 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 166.37 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "648198d8-0f9f-46cf-85f8-21018b0f87b6")
-		)
-		(pin "2"
-			(uuid "0c93cc1b-d7df-41bd-a6a1-0c933c8f127e")
-		)
-		(instances
-			(project "rover-chasis-controller"
-				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
-					(reference "F11")
 					(unit 1)
 				)
 			)
@@ -49848,6 +49970,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 119.38 139.7 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6263cf3-171c-43de-9f84-9a73c79053b2")
+		(property "Reference" "F3"
+			(at 119.38 146.05 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fuse"
+			(at 119.38 143.51 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 137.922 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 119.38 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/Resettable-Fuses_BNstar-SMD1812-030C-30V_C2760284.html?s_z=n_smd%2520fuse%25200.3A"
+			(at 119.38 139.7 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07ffa9d8-98e6-4b38-a402-68d820e2b37f")
+		)
+		(pin "2"
+			(uuid "e895e9af-767b-4c37-9457-b817fbe21dab")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "F3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 372.11 162.56 0)
 		(mirror y)
@@ -49902,7 +50102,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/Through-Hole-Resistors_CCO-Chian-Chia-Elec-CF1-4W-330-5-T_C120043.html"
+		(property "LCSC" "https://www.lcsc.com/product-detail/Chip-Resistor-Surface-Mount_KOA-Speer-Elec-WK73R1JTTD432J_C4058781.html?s_z=n_4.3k%25CE%25A9%2520%2520smd"
 			(at 372.11 162.56 0)
 			(effects
 				(font
@@ -51638,83 +51838,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 247.65 284.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e1fced6c-aafc-4f83-8622-7cc92e636ef7")
-		(property "Reference" "R16"
-			(at 247.65 278.13 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 247.65 280.67 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.904 283.464 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 247.65 284.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/Through-Hole-Resistors_Huaxing-Mechanical-Elec-MF1-4W-220-1-T52_C714546.html?s_z=n_MF1%2F4W-220R-T52"
-			(at 247.65 284.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f4b14726-7edd-4d49-a403-29b114a6fa1b")
-		)
-		(pin "1"
-			(uuid "79402937-42eb-415e-bfe9-da3e8d94d993")
-		)
-		(instances
-			(project "rover-chasis-controller"
-				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead")
 		(at 229.87 214.63 180)
 		(unit 1)
@@ -52391,83 +52514,6 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "R46")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 247.65 307.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e6c330b9-2ceb-420f-99b1-f0bc2f4270e7")
-		(property "Reference" "R18"
-			(at 247.65 300.99 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "220"
-			(at 247.65 303.53 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 247.904 306.324 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 247.65 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 247.65 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/Through-Hole-Resistors_Huaxing-Mechanical-Elec-MF1-4W-220-1-T52_C714546.html?s_z=n_MF1%2F4W-220R-T52"
-			(at 247.65 307.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f5c0b979-149f-445c-b478-1549079fc244")
-		)
-		(pin "1"
-			(uuid "62adcc05-bbc2-4b07-8aa8-e4d40afc0c25")
-		)
-		(instances
-			(project "rover-chasis-controller"
-				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
-					(reference "R18")
 					(unit 1)
 				)
 			)
