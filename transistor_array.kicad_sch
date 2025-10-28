@@ -1,0 +1,878 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "53ec9d80-5bfa-4615-988f-fe7294529f46")
+	(paper "A5")
+	(lib_symbols
+		(symbol "C181119:MMBT3904_C181119"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MMBT3904_C181119"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_MMBT3904_C181119.html"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C181119"
+				(at 0 -17.78 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MMBT3904_C181119_0_1"
+				(polyline
+					(pts
+						(xy 0 -0.76) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.29) (xy 0 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0 0.76)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 1.78 -1.27) (xy 1.02 -2.29) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 55.88 48.26) (xy 57.15 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32604a81-17fb-4fb8-9d8c-436e1aa487e6")
+	)
+	(wire
+		(pts
+			(xy 52.07 102.87) (xy 52.07 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "338ff8a5-dc3a-420c-913c-57a88df8faea")
+	)
+	(wire
+		(pts
+			(xy 45.72 97.79) (xy 46.99 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3bede75f-af08-454e-8bd8-20570a23ce77")
+	)
+	(wire
+		(pts
+			(xy 50.8 69.85) (xy 50.8 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5beee014-8036-493c-905e-e2446f59b3dc")
+	)
+	(wire
+		(pts
+			(xy 55.88 64.77) (xy 57.15 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2a52c7-e2b0-41bf-b6f1-10aa1e55a2c9")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 50.8 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ed0caf2-2cd8-41c8-8ae5-dc98317ba27e")
+	)
+	(wire
+		(pts
+			(xy 44.45 64.77) (xy 45.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74e0fa6c-1e7c-417e-a998-d29c4859abbd")
+	)
+	(wire
+		(pts
+			(xy 57.15 97.79) (xy 58.42 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aff1575-8ca3-42aa-9963-4e687b63c269")
+	)
+	(wire
+		(pts
+			(xy 57.15 81.28) (xy 58.42 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "845eb32c-6710-4269-8481-88c76e453e96")
+	)
+	(wire
+		(pts
+			(xy 44.45 48.26) (xy 45.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b66023a3-3b39-439e-8eda-4530aff06a8e")
+	)
+	(wire
+		(pts
+			(xy 52.07 86.36) (xy 52.07 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b67abea5-1a69-4818-afa2-aef8fbc72483")
+	)
+	(wire
+		(pts
+			(xy 45.72 81.28) (xy 46.99 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee71963a-a0f9-4550-988d-20d421fd6095")
+	)
+	(hierarchical_label "E2"
+		(shape output)
+		(at 57.15 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "363518ac-cd89-4361-8654-a836a30a67c5")
+	)
+	(hierarchical_label "E3"
+		(shape output)
+		(at 58.42 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39e96ea4-abca-43eb-97df-67773d17a59e")
+	)
+	(hierarchical_label "C4"
+		(shape input)
+		(at 45.72 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "55be7773-5266-4133-bde9-2ae623792bdf")
+	)
+	(hierarchical_label "C3"
+		(shape input)
+		(at 45.72 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d45ce89-e93e-441a-b5fb-3a621f5a61c9")
+	)
+	(hierarchical_label "B1"
+		(shape input)
+		(at 50.8 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7ba02556-6117-4de9-a2d9-9887bbc9af41")
+	)
+	(hierarchical_label "C1"
+		(shape input)
+		(at 44.45 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95c6ea23-9fdb-49c9-8df6-99b09fc83ccb")
+	)
+	(hierarchical_label "E1"
+		(shape output)
+		(at 57.15 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b6dfa94d-5919-4609-bdb6-97964dd494b9")
+	)
+	(hierarchical_label "B4"
+		(shape input)
+		(at 52.07 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d25680b9-e164-4d5a-9e12-48f13c2c959b")
+	)
+	(hierarchical_label "E4"
+		(shape output)
+		(at 58.42 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e60fc61b-3d34-46e1-8217-02d99231e1d8")
+	)
+	(hierarchical_label "B2"
+		(shape input)
+		(at 50.8 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e7088605-c6ab-4d89-85d7-6e01b5ad057e")
+	)
+	(hierarchical_label "C2"
+		(shape input)
+		(at 44.45 64.77 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "faf4762f-ca86-4f14-a1e6-65ef1fbdd2c8")
+	)
+	(hierarchical_label "B3"
+		(shape input)
+		(at 52.07 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "fe300437-c50b-47e6-a945-b72015b2b893")
+	)
+	(symbol
+		(lib_id "C181119:MMBT3904_C181119")
+		(at 50.8 50.8 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9da3946-a6a9-43c8-81a2-aa70001d894d")
+		(property "Reference" "Q13"
+			(at 50.8 43.18 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3904_C181119"
+			(at 50.8 45.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+			(at 63.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_MMBT3904_C181119.html"
+			(at 66.04 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C181119"
+			(at 68.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 50.8 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "61497c63-a5c1-461d-8343-97d39caf9e97")
+		)
+		(pin "3"
+			(uuid "0cbb19b3-c0b5-491c-8d53-dbaddc0b9186")
+		)
+		(pin "2"
+			(uuid "4716a7d3-2331-437d-ac07-c982bdfafec6")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/31be4a39-46b3-4c77-a525-6bc9da9cdc0f"
+					(reference "Q13")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/55efdd8c-a115-48fc-9c76-7793cfb21af1"
+					(reference "Q6")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/85e9028e-a593-4694-a303-1fd0a5ed20c6"
+					(reference "Q14")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/8fc769d5-80d8-40f4-9b1c-b935c170ccff"
+					(reference "Q1")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/fc5d2d36-4f1a-4835-897c-c2c2bb73a215"
+					(reference "Q11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C181119:MMBT3904_C181119")
+		(at 50.8 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f393d98d-bc56-40af-83cd-fe4bd4bd3d6c")
+		(property "Reference" "Q30"
+			(at 50.8 59.69 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3904_C181119"
+			(at 50.8 62.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+			(at 63.5 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_MMBT3904_C181119.html"
+			(at 66.04 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 50.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C181119"
+			(at 68.58 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 50.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 50.8 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8a5030ba-259e-4680-b4bb-245b9ab57f08")
+		)
+		(pin "3"
+			(uuid "60aa838c-97ba-4caa-b737-2ead0175a8c1")
+		)
+		(pin "2"
+			(uuid "bba55754-41b1-4477-9099-17ed14f615f4")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/31be4a39-46b3-4c77-a525-6bc9da9cdc0f"
+					(reference "Q30")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/55efdd8c-a115-48fc-9c76-7793cfb21af1"
+					(reference "Q27")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/85e9028e-a593-4694-a303-1fd0a5ed20c6"
+					(reference "Q33")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/8fc769d5-80d8-40f4-9b1c-b935c170ccff"
+					(reference "Q22")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/fc5d2d36-4f1a-4835-897c-c2c2bb73a215"
+					(reference "Q17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C181119:MMBT3904_C181119")
+		(at 52.07 100.33 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f469e1f6-2610-4a76-a873-e098b62b6718")
+		(property "Reference" "Q32"
+			(at 52.07 92.71 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3904_C181119"
+			(at 52.07 95.25 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+			(at 64.77 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_MMBT3904_C181119.html"
+			(at 67.31 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C181119"
+			(at 69.85 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 52.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9f3d9fcf-63b5-436f-9d36-b958bb5ebd76")
+		)
+		(pin "3"
+			(uuid "dc047acf-86dd-44c8-a6f3-ff05af2b3f47")
+		)
+		(pin "2"
+			(uuid "63df769e-8b5d-4358-baf3-8d7d3a1bdbb9")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/31be4a39-46b3-4c77-a525-6bc9da9cdc0f"
+					(reference "Q32")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/55efdd8c-a115-48fc-9c76-7793cfb21af1"
+					(reference "Q29")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/85e9028e-a593-4694-a303-1fd0a5ed20c6"
+					(reference "Q35")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/8fc769d5-80d8-40f4-9b1c-b935c170ccff"
+					(reference "Q24")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/fc5d2d36-4f1a-4835-897c-c2c2bb73a215"
+					(reference "Q26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C181119:MMBT3904_C181119")
+		(at 52.07 83.82 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fee3588e-f2f0-418f-8b81-96ca6626503f")
+		(property "Reference" "Q31"
+			(at 52.07 76.2 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3904_C181119"
+			(at 52.07 78.74 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SOT-23-3_L2.9-W1.6-P1.90-LS2.8-BR"
+			(at 64.77 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Transistors-NPN-PNP_MMBT3904_C181119.html"
+			(at 67.31 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C181119"
+			(at 69.85 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 52.07 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6806cafc-982c-408e-947e-05f2f0d6300b")
+		)
+		(pin "3"
+			(uuid "578ac18b-2e74-43cc-8973-2e54267c31ac")
+		)
+		(pin "2"
+			(uuid "e46cb116-0457-475a-ab08-9c3945b6d679")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/31be4a39-46b3-4c77-a525-6bc9da9cdc0f"
+					(reference "Q31")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/55efdd8c-a115-48fc-9c76-7793cfb21af1"
+					(reference "Q28")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/85e9028e-a593-4694-a303-1fd0a5ed20c6"
+					(reference "Q34")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/8fc769d5-80d8-40f4-9b1c-b935c170ccff"
+					(reference "Q23")
+					(unit 1)
+				)
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/fc5d2d36-4f1a-4835-897c-c2c2bb73a215"
+					(reference "Q25")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
