@@ -20,7 +20,7 @@
       "footprints": true,
       "graphics": true,
       "keepouts": true,
-      "lockedItems": true,
+      "lockedItems": false,
       "otherItems": true,
       "pads": true,
       "text": true,
@@ -97,7 +97,7 @@
       136,
       98,
       136,
-      136
+      181
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
