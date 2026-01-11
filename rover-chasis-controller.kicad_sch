@@ -9640,7 +9640,7 @@
 		)
 		(uuid "1835c020-279f-48e5-aaac-6075454fc8a6")
 	)
-	(label "External_LED_Collector_2"
+	(label "LED_YELLOW"
 		(at 41.91 212.09 0)
 		(effects
 			(font
@@ -9970,7 +9970,7 @@
 		)
 		(uuid "72616bb6-da0f-4b7e-9bc6-7e67c2f5d3bf")
 	)
-	(label "External_LED_Collector_1"
+	(label "LED_RED"
 		(at 41.91 224.79 0)
 		(effects
 			(font
@@ -10170,7 +10170,7 @@
 		)
 		(uuid "b8df3c93-5321-4d69-b6d6-10df294fe7bc")
 	)
-	(label "External_LED_Collector_3"
+	(label "LED_GREEN"
 		(at 41.91 198.12 0)
 		(effects
 			(font
