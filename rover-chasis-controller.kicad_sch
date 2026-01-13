@@ -3907,6 +3907,89 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "STM32F4DISCOVERY:STM32F4DISCOVERY"
 			(pin_names
 				(offset 1.016)
@@ -6587,8 +6670,8 @@
 		(uuid 6b977c22-ab00-4bd1-86dc-34badd8b63a1)
 	)
 	(rectangle
-		(start 73.66 200.66)
-		(end 115.57 222.25)
+		(start 71.12 200.66)
+		(end 121.92 247.65)
 		(stroke
 			(width 0)
 			(type default)
@@ -6635,8 +6718,8 @@
 		(uuid 7d573c28-22a1-4b73-a224-9d9b14f2e57f)
 	)
 	(rectangle
-		(start 251.46 175.26)
-		(end 298.45 148.59)
+		(start 251.46 148.59)
+		(end 298.45 175.26)
 		(stroke
 			(width 0)
 			(type default)
@@ -6669,6 +6752,18 @@
 			(type none)
 		)
 		(uuid b5a1a710-7106-4ab0-808b-9e206f26bc38)
+	)
+	(rectangle
+		(start 300.99 148.59)
+		(end 323.85 168.91)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ccfc5a78-dae3-4b7e-90a2-c324ce1e746b)
 	)
 	(rectangle
 		(start 102.87 90.17)
@@ -7181,6 +7276,17 @@
 		)
 		(uuid "ba22645a-2e2f-4f19-81b2-f2168973afa0")
 	)
+	(text "Mounting Holes"
+		(exclude_from_sim no)
+		(at 302.26 152.146 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bd3f0910-c280-4f95-b173-b18b2cc4ac73")
+	)
 	(text "ECHO"
 		(exclude_from_sim no)
 		(at 187.706 200.66 0)
@@ -7443,6 +7549,12 @@
 		(uuid "fe0859c8-23eb-4516-ab23-35df2b6b95df")
 	)
 	(junction
+		(at 95.25 231.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04f547fc-9391-4692-a263-718fad0c6242")
+	)
+	(junction
 		(at 148.59 210.82)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7663,6 +7775,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b3d0fed0-a472-44a6-9677-8921a0522bfd")
+	)
+	(junction
+		(at 95.25 217.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c17d8b9c-50a5-4871-a525-6c67b75cff32")
 	)
 	(junction
 		(at 204.47 50.8)
@@ -8112,6 +8230,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 217.17) (xy 105.41 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39d05d17-d1d4-49e9-889c-4913a7d45da8")
+	)
+	(wire
+		(pts
 			(xy 311.15 120.65) (xy 318.77 120.65)
 		)
 		(stroke
@@ -8319,6 +8447,16 @@
 			(type default)
 		)
 		(uuid "5fc81665-dd8d-4a09-a4dd-a924312f5999")
+	)
+	(wire
+		(pts
+			(xy 95.25 231.14) (xy 95.25 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6198cb59-4e10-4e67-af67-5688d7ef3414")
 	)
 	(wire
 		(pts
@@ -8552,6 +8690,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 231.14) (xy 102.87 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80b615bf-d45d-4108-9ba7-08241f0868a9")
+	)
+	(wire
+		(pts
 			(xy 223.52 167.64) (xy 224.79 167.64)
 		)
 		(stroke
@@ -8589,6 +8737,16 @@
 			(type default)
 		)
 		(uuid "83a08a68-7e8b-4a62-b97b-045987f27c64")
+	)
+	(wire
+		(pts
+			(xy 95.25 231.14) (xy 95.25 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83a2a4d4-5619-47ce-a83c-ef39a544bc1a")
 	)
 	(wire
 		(pts
@@ -8689,6 +8847,16 @@
 			(type default)
 		)
 		(uuid "92147570-3b82-4f9d-9c96-a7d42ed3ebb2")
+	)
+	(wire
+		(pts
+			(xy 92.71 231.14) (xy 95.25 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a9869d-5491-4787-8c61-0e5137284c92")
 	)
 	(wire
 		(pts
@@ -9112,7 +9280,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 217.17) (xy 105.41 217.17)
+			(xy 91.44 217.17) (xy 95.25 217.17)
 		)
 		(stroke
 			(width 0)
@@ -9192,6 +9360,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 231.14) (xy 102.87 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "deb03cdc-74a6-4edb-9a78-4a1d88e03056")
+	)
+	(wire
+		(pts
 			(xy 269.24 40.64) (xy 269.24 43.18)
 		)
 		(stroke
@@ -9219,6 +9397,16 @@
 			(type default)
 		)
 		(uuid "e34b4e33-df61-43a2-901b-ba6508ac2f24")
+	)
+	(wire
+		(pts
+			(xy 95.25 217.17) (xy 95.25 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3e07193-ae7b-4d2c-abfc-98bcb83d0df8")
 	)
 	(wire
 		(pts
@@ -9550,6 +9738,16 @@
 		)
 		(uuid "0ae98ce2-d7bd-42f5-ac0a-699c5ff92f2a")
 	)
+	(label "TTL_TX"
+		(at 77.47 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0d75bbfe-7320-4f60-a7d9-c55923950c50")
+	)
 	(label "LED_RED"
 		(at 77.47 81.28 0)
 		(effects
@@ -9660,6 +9858,16 @@
 		)
 		(uuid "1b4dbcfe-473c-4218-82f9-b3113272cff0")
 	)
+	(label "TTL_RX"
+		(at 36.83 119.38 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "22da62be-577b-4415-b4aa-a9a1ac0124fc")
+	)
 	(label "US_SENSOR2_TRIG"
 		(at 77.47 134.62 0)
 		(effects
@@ -9729,6 +9937,16 @@
 			(justify left bottom)
 		)
 		(uuid "373a195f-d067-4c00-b08c-79c80cf397b7")
+	)
+	(label "POWER_SUPPLY_ADC"
+		(at 92.71 231.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "376e62a1-8712-4aeb-86ed-e745c8772e49")
 	)
 	(label "MOTOR2_PWM"
 		(at 270.51 55.88 180)
@@ -9900,16 +10118,6 @@
 		)
 		(uuid "61d0ad99-1426-41db-b9e2-6f9173493c59")
 	)
-	(label "TTL_RX"
-		(at -11.43 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "629e64fc-4755-4774-8089-e99064dbf5c1")
-	)
 	(label "MOTOR3_FWD"
 		(at 295.91 50.8 0)
 		(effects
@@ -10079,16 +10287,6 @@
 			(justify right bottom)
 		)
 		(uuid "9bade0f0-095d-408c-bcc2-70e05cdc45f1")
-	)
-	(label "TTL_TX"
-		(at -11.43 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9c687a97-4bad-49b4-b62d-ee6be8a8a348")
 	)
 	(label "MOTOR4_PWM"
 		(at 295.91 58.42 0)
@@ -10543,7 +10741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 159.7152 132.08 0)
 			(effects
 				(font
@@ -10579,7 +10777,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C49678"
 			(at 158.75 135.89 0)
 			(effects
 				(font
@@ -10647,7 +10845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_01005_0402Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 168.91 112.0648 0)
 			(effects
 				(font
@@ -10674,7 +10872,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0402KRX7R9BB222_C106861.html?s_z=n_Ceramic%252C%2520X7R%252C%25202.2nF%2520%25C2%25B110%2525%252C%252050V%2520smd"
+		(property "LCSC" ""
 			(at 165.1 113.03 90)
 			(effects
 				(font
@@ -10683,7 +10881,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C106861"
+		(property "LCSC Part" "C28260"
 			(at 165.1 113.03 0)
 			(effects
 				(font
@@ -10847,6 +11045,15 @@
 			)
 		)
 		(property "LCSC" "C2987717"
+			(at 116.84 33.02 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2987717"
 			(at 116.84 33.02 90)
 			(effects
 				(font
@@ -11378,6 +11585,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 314.96 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1465ac2e-0805-493a-b0d1-425f8ffbc4d3")
+		(property "Reference" "MK4"
+			(at 317.5 165.2016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 317.5 167.513 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 314.96 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_IGNORE" ""
+			(at 314.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 314.96 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "MK4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 307.34 41.91 0)
 		(unit 1)
@@ -11460,7 +11748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC (5V)"
+		(property "Value" "VCC (12V)"
 			(at 106.934 219.71 90)
 			(effects
 				(font
@@ -11568,6 +11856,87 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 303.53 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "16ce5f48-d337-4b38-81be-b303442c7787")
+		(property "Reference" "MK1"
+			(at 306.07 160.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 306.07 162.433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 303.53 161.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 303.53 161.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_IGNORE" ""
+			(at 303.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 303.53 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "MK1")
 					(unit 1)
 				)
 			)
@@ -12181,6 +12550,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C42387343"
+			(at 240.03 52.07 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2853088e-da3d-454c-a7ae-ddf5d1d986fc")
 		)
@@ -12224,7 +12602,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 332.4352 102.87 0)
 			(effects
 				(font
@@ -12260,7 +12638,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C49678"
 			(at 331.47 106.68 0)
 			(effects
 				(font
@@ -12328,7 +12706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.614 113.284 90)
 			(effects
 				(font
@@ -12364,7 +12742,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C112291"
+		(property "LCSC Part" "C17557"
 			(at 213.36 114.3 0)
 			(effects
 				(font
@@ -12434,7 +12812,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 332.4352 125.73 0)
 			(effects
 				(font
@@ -12470,7 +12848,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C49678"
 			(at 331.47 129.54 0)
 			(effects
 				(font
@@ -12507,6 +12885,87 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "C100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 303.53 166.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "37569f1e-ad9e-4dcd-b49a-9dd07385a57d")
+		(property "Reference" "MK2"
+			(at 306.07 165.2016 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 306.07 167.513 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 303.53 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 303.53 166.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_IGNORE" ""
+			(at 303.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 303.53 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "MK2")
 					(unit 1)
 				)
 			)
@@ -13109,7 +13568,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22 uF"
+		(property "Value" "22uF"
 			(at 232.41 56.515 0)
 			(effects
 				(font
@@ -13146,6 +13605,15 @@
 			)
 		)
 		(property "LCSC" "C87996"
+			(at 231.775 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C87996"
 			(at 231.775 51.435 0)
 			(effects
 				(font
@@ -13307,7 +13775,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 311.404 50.546 90)
 			(effects
 				(font
@@ -13343,7 +13811,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C60490"
+		(property "LCSC Part" "C17414"
 			(at 312.42 50.8 0)
 			(effects
 				(font
@@ -13449,6 +13917,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C103948"
+			(at 204.47 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27d48447-9a10-4e54-8d9e-3dae8da1b312")
 		)
@@ -13528,6 +14005,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2918070"
+			(at 172.085 74.295 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e9ec2593-0be4-437f-bd02-c8881352d8b8")
 		)
@@ -13538,6 +14024,112 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 102.87 238.76 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4b9a3ca4-f57c-4505-9d8a-16204693960d")
+		(property "Reference" "C10"
+			(at 112.014 236.982 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 112.014 239.522 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 103.8352 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 102.87 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html?s_z=n_100nf%2520smd"
+			(at 102.87 238.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
+			(at 102.87 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 102.87 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 102.87 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06ac72ed-b0c0-4ca6-b8cd-d3aa06d0edde")
+		)
+		(pin "2"
+			(uuid "f35b4e0f-f3f6-48e5-b502-902441c6e343")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -13946,6 +14538,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C7587741"
+			(at 184.15 41.91 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8437e0d3-3ea1-4164-8b51-22f30a166557")
 		)
@@ -14084,6 +14685,15 @@
 			)
 		)
 		(property "LCSC" "C113821"
+			(at 193.04 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C113821"
 			(at 193.04 45.72 0)
 			(effects
 				(font
@@ -14426,6 +15036,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 314.96 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "58e8dcff-5f16-4248-96a0-6c0c69ef0cc2")
+		(property "Reference" "MK3"
+			(at 317.5 160.1216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 317.5 162.433 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_IGNORE" ""
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 314.96 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "MK3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 138.43 210.82 0)
 		(mirror y)
@@ -14538,6 +15229,112 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 95.25 224.79 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d68f4b3-7493-4460-ab72-cadb1894e83e")
+		(property "Reference" "R11"
+			(at 98.552 225.806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 98.552 223.266 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 94.234 225.044 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 95.25 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 95.25 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C149504"
+			(at 95.25 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 95.25 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 95.25 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7cfe54a-3230-43f9-a443-8c84524f9186")
+		)
+		(pin "2"
+			(uuid "4a869f71-6604-43a2-9625-b4919a545bdd")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 204.47 55.88 0)
 		(unit 1)
@@ -14593,6 +15390,15 @@
 			)
 		)
 		(property "LCSC" "C2692772"
+			(at 204.47 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2692772"
 			(at 204.47 55.88 0)
 			(effects
 				(font
@@ -14695,6 +15501,112 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
+		(at 95.25 238.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60b9e491-f81c-43ed-aa21-e0ee5234ff74")
+		(property "Reference" "R12"
+			(at 88.9 239.776 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "22k"
+			(at 88.9 237.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 94.234 239.014 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 95.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" ""
+			(at 95.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C17560"
+			(at 95.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field5" ""
+			(at 95.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" ""
+			(at 95.25 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a82d7777-32df-4c66-88db-c824a6e6ce68")
+		)
+		(pin "2"
+			(uuid "204d44df-cb55-4828-9ad0-51c7252e98ce")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
 		(at 143.51 201.93 0)
 		(mirror y)
 		(unit 1)
@@ -14721,7 +15633,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 142.494 202.184 90)
 			(effects
 				(font
@@ -14757,7 +15669,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C112291"
+		(property "LCSC Part" "C2933704"
 			(at 143.51 201.93 0)
 			(effects
 				(font
@@ -14890,7 +15802,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.614 101.854 90)
 			(effects
 				(font
@@ -14926,7 +15838,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C112291"
+		(property "LCSC Part" "C17557"
 			(at 213.36 102.87 0)
 			(effects
 				(font
@@ -15651,7 +16563,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "10uF"
 			(at 273.304 133.604 0)
 			(effects
 				(font
@@ -15889,7 +16801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22 uF"
+		(property "Value" "22uF"
 			(at 225.425 56.515 0)
 			(effects
 				(font
@@ -15934,6 +16846,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C87996"
+			(at 224.79 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "656c9ee6-d3f3-4faf-8a5c-0ed7145d69d2")
 		)
@@ -15968,7 +16889,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "10uF"
 			(at 273.304 110.744 0)
 			(effects
 				(font
@@ -16150,7 +17071,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 150.8252 213.36 0)
 			(effects
 				(font
@@ -16186,7 +17107,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C49678"
 			(at 149.86 217.17 0)
 			(effects
 				(font
@@ -16321,7 +17242,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 285.4452 125.73 0)
 			(effects
 				(font
@@ -16357,7 +17278,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C49678"
 			(at 284.48 129.54 0)
 			(effects
 				(font
@@ -16635,6 +17556,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C2989281"
+			(at 116.84 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "dd7e5f17-d072-43c2-89fc-760bf4c6e1d5")
 		)
@@ -16678,7 +17608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 209.2452 203.2 0)
 			(effects
 				(font
@@ -16705,7 +17635,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html?s_z=n_100nf%2520smd"
+		(property "LCSC" ""
 			(at 208.28 207.01 90)
 			(effects
 				(font
@@ -16714,7 +17644,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C49678"
 			(at 208.28 207.01 0)
 			(effects
 				(font
@@ -16784,7 +17714,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 285.4452 102.87 0)
 			(effects
 				(font
@@ -16820,7 +17750,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C49678"
 			(at 284.48 106.68 0)
 			(effects
 				(font
@@ -17101,7 +18031,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "10uF"
 			(at 320.294 133.604 0)
 			(effects
 				(font
@@ -17396,6 +18326,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C1713"
+			(at 130.175 46.355 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dd232e0-3ec0-4d33-94d2-9a8689ab0f51")
 		)
@@ -17607,6 +18546,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C576897"
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63185f12-b66a-414c-a18e-22ec459d99b9")
 		)
@@ -17722,6 +18670,87 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "F2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 303.53 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a54a7f15-629f-4a01-9b32-e19c906b1a29")
+		(property "Reference" "MK5"
+			(at 306.07 155.0416 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "M2.5"
+			(at 306.07 157.353 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.7mm_M2.5_Pad"
+			(at 303.53 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 303.53 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 303.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_IGNORE" ""
+			(at 303.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB_CORRECTION" ""
+			(at 303.53 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "MK5")
 					(unit 1)
 				)
 			)
@@ -18681,7 +19710,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 281.6352 157.48 0)
 			(effects
 				(font
@@ -18717,7 +19746,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C49678"
 			(at 280.67 161.29 0)
 			(effects
 				(font
@@ -19142,7 +20171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22 uF"
+		(property "Value" "22uF"
 			(at 217.17 56.515 0)
 			(effects
 				(font
@@ -19179,6 +20208,15 @@
 			)
 		)
 		(property "LCSC" "C87996"
+			(at 216.535 51.435 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C87996"
 			(at 216.535 51.435 0)
 			(effects
 				(font
@@ -19333,6 +20371,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C865809"
+			(at 172.085 65.405 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6fbb6e4b-fdf5-4d05-82fc-798fc234e31a")
 		)
@@ -19412,6 +20459,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C728645"
+			(at 138.43 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a3b1a62-ac99-429a-be4a-dd964f2846be")
 		)
@@ -19445,7 +20501,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 167.64 38.1 0)
 			(effects
 				(font
@@ -19482,6 +20538,15 @@
 			)
 		)
 		(property "LCSC" "C28233"
+			(at 176.53 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C49678"
 			(at 176.53 36.83 0)
 			(effects
 				(font
@@ -19928,6 +20993,15 @@
 			)
 		)
 		(property "LCSC" "C13585 "
+			(at 307.34 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C1713"
 			(at 307.34 38.1 0)
 			(effects
 				(font
@@ -20486,7 +21560,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 115.57 126.6952 0)
 			(effects
 				(font
@@ -20513,7 +21587,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_YAGEO-CC0603KRX7R9BB104_C14663.html?s_z=n_100nf%2520smd"
+		(property "LCSC" ""
 			(at 111.76 125.73 90)
 			(effects
 				(font
@@ -20522,7 +21596,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C14663"
+		(property "LCSC Part" "C49678"
 			(at 111.76 125.73 0)
 			(effects
 				(font
@@ -20694,6 +21768,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part" "C3018698"
+			(at 86.36 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c8f6ff64-87db-4525-9262-9dd1769a2b91")
 		)
@@ -20763,6 +21846,15 @@
 			)
 		)
 		(property "LCSC" "C2070920"
+			(at 156.21 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2070920"
 			(at 156.21 54.61 0)
 			(effects
 				(font
@@ -21253,7 +22345,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 147.574 202.184 90)
 			(effects
 				(font
@@ -21289,7 +22381,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C112291"
+		(property "LCSC Part" "C2933704"
 			(at 148.59 201.93 0)
 			(effects
 				(font
@@ -21357,7 +22449,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.614 124.714 90)
 			(effects
 				(font
@@ -21393,7 +22485,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C112291"
+		(property "LCSC Part" "C17557"
 			(at 213.36 125.73 0)
 			(effects
 				(font
@@ -21430,6 +22522,71 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eef650a4-8f0b-4f88-a201-a9f99d0a55d7")
+		(property "Reference" "#PWR022"
+			(at 102.87 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 105.664 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 102.87 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4107e31-a146-4cc9-8c22-00d4c5ad957c")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -21586,7 +22743,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "10 uF"
+		(property "Value" "10uF"
 			(at 320.294 110.744 0)
 			(effects
 				(font
@@ -21699,7 +22856,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 213.614 136.144 90)
 			(effects
 				(font
@@ -21735,7 +22892,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C112291"
+		(property "LCSC Part" "C17557"
 			(at 213.36 137.16 0)
 			(effects
 				(font
@@ -21845,6 +23002,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 95.25 242.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6575873-55e1-48fb-9253-323e0f510ee2")
+		(property "Reference" "#PWR021"
+			(at 95.25 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 98.044 243.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 95.25 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 95.25 242.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "62fca903-e265-4a1a-a9e5-d7cbde7e0432")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 107.95 33.02 0)
 		(unit 1)
@@ -21862,7 +23084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VCC (5V)"
+		(property "Value" "VCC (12V)"
 			(at 107.95 28.956 0)
 			(effects
 				(font
