@@ -11217,7 +11217,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C495693"
+		(property "LCSC Part" "C131337"
 			(at 36.83 212.09 0)
 			(effects
 				(font
@@ -11378,6 +11378,83 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C5879383:APT2012LVBC_D")
+		(at 201.93 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "11ed180c-3281-42cf-98cf-cecdf3fe68bc")
+		(property "Reference" "U7"
+			(at 203.2 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APT2012LVBC/D"
+			(at 203.2 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 201.93 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965817"
+			(at 201.93 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b7c9811f-7178-4c89-8c20-0351e95f5c69")
+		)
+		(pin "2"
+			(uuid "c56271c8-fbd0-496b-91ea-fc2b295d8172")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -12198,7 +12275,7 @@
 				)
 			)
 		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L2.0-W1.3-R-RD"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 201.93 110.49 0)
 			(effects
 				(font
@@ -12225,7 +12302,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C5879383"
+		(property "LCSC Part" "C965817"
 			(at 201.93 113.03 0)
 			(effects
 				(font
@@ -13235,7 +13312,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C111514"
+		(property "LCSC Part" "C131334"
 			(at 191.77 200.66 0)
 			(effects
 				(font
@@ -13344,6 +13421,83 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "C5879383:APT2012LVBC_D")
+		(at 201.93 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3c8a4c6d-6fa6-48f2-90d4-5956630f602c")
+		(property "Reference" "U3"
+			(at 203.2 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APT2012LVBC/D"
+			(at 203.2 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 201.93 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965817"
+			(at 201.93 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b8e8704-0f31-4468-96f7-6bfde4648198")
+		)
+		(pin "2"
+			(uuid "0aa0dca1-c0fa-4149-9aad-3b937ff08d6c")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -13699,7 +13853,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C111514"
+		(property "LCSC Part" "C131334"
 			(at 264.16 154.94 0)
 			(effects
 				(font
@@ -14265,7 +14419,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C495693"
+		(property "LCSC Part" "C131337"
 			(at 36.83 224.79 0)
 			(effects
 				(font
@@ -14361,7 +14515,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C111514"
+		(property "LCSC Part" "C131334"
 			(at 306.07 100.33 0)
 			(effects
 				(font
@@ -14847,7 +15001,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C265393"
+		(property "LCSC Part" "C131339"
 			(at 147.32 168.91 0)
 			(effects
 				(font
@@ -14887,83 +15041,6 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C5879383:APT2012LVBC_D")
-		(at 201.93 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "565db250-2bb8-4722-bb0d-c4670df75517")
-		(property "Reference" "U3"
-			(at 203.2 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "APT2012LVBC/D"
-			(at 203.2 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L2.0-W1.3-R-RD"
-			(at 201.93 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5879383"
-			(at 201.93 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7c2add13-934f-4472-bc03-871b5b5332b6")
-		)
-		(pin "2"
-			(uuid "156d12df-1847-4c44-b7cd-b776d2c1a11d")
-		)
-		(instances
-			(project "rover-chasis-controller"
-				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
-					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -15180,7 +15257,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C111514"
+		(property "LCSC Part" "C131334"
 			(at 138.43 210.82 0)
 			(effects
 				(font
@@ -15417,83 +15494,6 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C5879383:APT2012LVBC_D")
-		(at 201.93 137.16 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "60a62738-df1a-4a7f-b877-49ee711d52e5")
-		(property "Reference" "U7"
-			(at 203.2 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "APT2012LVBC/D"
-			(at 203.2 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L2.0-W1.3-R-RD"
-			(at 201.93 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5879383"
-			(at 201.93 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d66fe765-5698-4ac3-a5c3-c477ae8d0f82")
-		)
-		(pin "2"
-			(uuid "6ce56a9a-f324-4d2f-a989-0327af266b1c")
-		)
-		(instances
-			(project "rover-chasis-controller"
-				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
-					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -16496,7 +16496,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C111514"
+		(property "LCSC Part" "C131334"
 			(at 245.11 222.25 0)
 			(effects
 				(font
@@ -17687,6 +17687,83 @@
 		)
 	)
 	(symbol
+		(lib_id "C5879383:APT2012LVBC_D")
+		(at 201.93 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95df8b3c-e155-4731-8097-82bee1528de0")
+		(property "Reference" "U2"
+			(at 203.2 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "APT2012LVBC/D"
+			(at 203.2 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 201.93 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 201.93 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C965817"
+			(at 201.93 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cebdd22-9f5a-4425-b892-9963e5ebdc02")
+		)
+		(pin "2"
+			(uuid "6aee05e7-8c61-4265-b691-da1b0214a84f")
+		)
+		(instances
+			(project "rover-chasis-controller"
+				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 284.48 106.68 0)
 		(mirror x)
@@ -17979,7 +18056,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C495693"
+		(property "LCSC Part" "C131337"
 			(at 36.83 198.12 0)
 			(effects
 				(font
@@ -18113,83 +18190,6 @@
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
 					(reference "C99")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "C5879383:APT2012LVBC_D")
-		(at 201.93 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9d42598a-e02c-486a-9d8a-1fcd2dca9a98")
-		(property "Reference" "U2"
-			(at 203.2 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "APT2012LVBC/D"
-			(at 203.2 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "easyeda2kicad:LED-SMD_L2.0-W1.3-R-RD"
-			(at 201.93 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 201.93 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C5879383"
-			(at 201.93 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7768c5f2-7401-4a00-9cc6-78a9b6cbad92")
-		)
-		(pin "2"
-			(uuid "851f64f7-8684-434d-8993-7630721d73d6")
-		)
-		(instances
-			(project "rover-chasis-controller"
-				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -19850,7 +19850,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C111514"
+		(property "LCSC Part" "C131334"
 			(at 276.86 199.39 0)
 			(effects
 				(font
@@ -20039,7 +20039,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C111514"
+		(property "LCSC Part" "C131334"
 			(at 259.08 123.19 0)
 			(effects
 				(font
@@ -20755,7 +20755,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C111514"
+		(property "LCSC Part" "C131334"
 			(at 276.86 222.25 0)
 			(effects
 				(font
@@ -22025,7 +22025,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C111514"
+		(property "LCSC Part" "C131334"
 			(at 259.08 100.33 0)
 			(effects
 				(font
@@ -22136,7 +22136,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C111514"
+		(property "LCSC Part" "C131334"
 			(at 306.07 123.19 0)
 			(effects
 				(font
@@ -23193,7 +23193,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C111514"
+		(property "LCSC Part" "C131334"
 			(at 245.11 200.66 0)
 			(effects
 				(font
