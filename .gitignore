@@ -1,0 +1,8 @@
+*.bak
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*_autosave-*
+*.lck
+fp-info-cache
+rover-chasis-controller-backups/
+

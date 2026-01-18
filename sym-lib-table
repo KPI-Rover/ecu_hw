@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "C2678753_PCA9685PW")(type "KiCad")(uri "${KIPRJMOD}/external_sym/C2678753_PCA9685PW/easyeda2kicad.kicad_sym")(options "")(descr ""))
+  (lib (name "easyeda2kicad")(type "KiCad")(uri "${KIPRJMOD}/external_sym/easyeda2kicad.kicad_sym")(options "")(descr ""))
+)
