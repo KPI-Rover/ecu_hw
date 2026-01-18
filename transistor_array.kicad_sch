@@ -430,7 +430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e9da3946-a6a9-43c8-81a2-aa70001d894d")
-		(property "Reference" "Q14"
+		(property "Reference" "Q2"
 			(at 72.39 69.85 90)
 			(effects
 				(font
@@ -500,6 +500,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSP Part" ""
+			(at 72.39 77.47 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61497c63-a5c1-461d-8343-97d39caf9e97")
 		)
@@ -512,7 +521,7 @@
 		(instances
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/85e9028e-a593-4694-a303-1fd0a5ed20c6"
-					(reference "Q14")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -528,7 +537,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f393d98d-bc56-40af-83cd-fe4bd4bd3d6c")
-		(property "Reference" "Q33"
+		(property "Reference" "Q3"
 			(at 72.39 86.36 90)
 			(effects
 				(font
@@ -598,6 +607,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSP Part" ""
+			(at 72.39 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8a5030ba-259e-4680-b4bb-245b9ab57f08")
 		)
@@ -610,7 +628,7 @@
 		(instances
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/85e9028e-a593-4694-a303-1fd0a5ed20c6"
-					(reference "Q33")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -626,7 +644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f469e1f6-2610-4a76-a873-e098b62b6718")
-		(property "Reference" "Q35"
+		(property "Reference" "Q5"
 			(at 73.66 119.38 90)
 			(effects
 				(font
@@ -696,6 +714,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSP Part" ""
+			(at 73.66 127 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9f3d9fcf-63b5-436f-9d36-b958bb5ebd76")
 		)
@@ -708,7 +735,7 @@
 		(instances
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/85e9028e-a593-4694-a303-1fd0a5ed20c6"
-					(reference "Q35")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -724,7 +751,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fee3588e-f2f0-418f-8b81-96ca6626503f")
-		(property "Reference" "Q34"
+		(property "Reference" "Q4"
 			(at 73.66 102.87 90)
 			(effects
 				(font
@@ -794,6 +821,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSP Part" ""
+			(at 73.66 110.49 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6806cafc-982c-408e-947e-05f2f0d6300b")
 		)
@@ -806,7 +842,7 @@
 		(instances
 			(project "rover-chasis-controller"
 				(path "/d124dc5a-4ec5-4298-b967-2d3e405008a3/85e9028e-a593-4694-a303-1fd0a5ed20c6"
-					(reference "Q34")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
