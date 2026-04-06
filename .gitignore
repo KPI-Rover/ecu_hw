@@ -1,2 +1,13 @@
 chassis_controller-backups/
+*.lck
+*-backups/
+*.bak
+*_old
+*.rpt
+*.log
+*.itb
+*.s-backups
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
 
